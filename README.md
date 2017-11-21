@@ -84,7 +84,7 @@ async function tryExample () {
 
   await Spot.listen()
   await NewYork.connect(Spot)
-  await NewYork.connect(Spot)
+  await Japan.connect(Spot)
 
   {
     class Person {

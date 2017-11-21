@@ -41,6 +41,27 @@
                 "type": "VSpot",
                 "description": ""
             }
+        },
+        {
+            "name": "clientMix",
+            "access": "",
+            "virtual": false,
+            "description": "Client mix",
+            "parameters": [
+                {
+                    "name": "Class",
+                    "type": "function",
+                    "description": "Class to mix",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "function",
+                "description": "- Mixed class"
+            }
         }
     ],
     "classes": [
@@ -59,6 +80,202 @@
             }
         },
         {
+            "name": "VSpotClient",
+            "description": "",
+            "extends": [],
+            "access": "",
+            "virtual": false,
+            "fires": "",
+            "constructor": {
+                "name": "VSpotClient",
+                "description": "",
+                "parameters": [],
+                "examples": []
+            },
+            "functions": [
+                {
+                    "name": "load",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Load subject into the spot",
+                    "parameters": [
+                        {
+                            "name": "Class",
+                            "type": "",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "subject",
+                            "type": "string",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "object",
+                        "description": "- Loaded instance"
+                    }
+                },
+                {
+                    "name": "use",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Use subject",
+                    "parameters": [
+                        {
+                            "name": "subject",
+                            "type": "string",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<Object>",
+                        "description": "- Local loaded subject or remote subject proxy"
+                    }
+                },
+                {
+                    "name": "connect",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Connect to connector",
+                    "parameters": [
+                        {
+                            "name": "connector",
+                            "type": "",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<void>",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "disconnect",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Disconnect from connector",
+                    "parameters": [],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<void>",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "load",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Load subject into the spot",
+                    "parameters": [
+                        {
+                            "name": "Class",
+                            "type": "",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "subject",
+                            "type": "string",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "object",
+                        "description": "- Loaded instance"
+                    }
+                },
+                {
+                    "name": "use",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Use subject",
+                    "parameters": [
+                        {
+                            "name": "subject",
+                            "type": "string",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<Object>",
+                        "description": "- Local loaded subject or remote subject proxy"
+                    }
+                },
+                {
+                    "name": "connect",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Connect to connector",
+                    "parameters": [
+                        {
+                            "name": "connector",
+                            "type": "",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<void>",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "disconnect",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Disconnect from connector",
+                    "parameters": [],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<void>",
+                        "description": ""
+                    }
+                }
+            ]
+        },
+        {
+            "name": "VSpotServer",
+            "description": "",
+            "extends": [],
+            "access": "",
+            "virtual": false,
+            "fires": "",
+            "constructor": {
+                "name": "VSpotServer",
+                "description": "",
+                "parameters": [],
+                "examples": []
+            }
+        },
+        {
             "name": "VSpot",
             "description": "",
             "extends": [],
@@ -67,6 +284,202 @@
             "fires": "",
             "constructor": {
                 "name": "VSpot",
+                "description": "",
+                "parameters": [],
+                "examples": []
+            }
+        },
+        {
+            "name": "VSpotClient",
+            "description": "",
+            "extends": [],
+            "access": "",
+            "virtual": false,
+            "fires": "",
+            "constructor": {
+                "name": "VSpotClient",
+                "description": "",
+                "parameters": [],
+                "examples": []
+            },
+            "functions": [
+                {
+                    "name": "load",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Load subject into the spot",
+                    "parameters": [
+                        {
+                            "name": "Class",
+                            "type": "",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "subject",
+                            "type": "string",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "object",
+                        "description": "- Loaded instance"
+                    }
+                },
+                {
+                    "name": "use",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Use subject",
+                    "parameters": [
+                        {
+                            "name": "subject",
+                            "type": "string",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<Object>",
+                        "description": "- Local loaded subject or remote subject proxy"
+                    }
+                },
+                {
+                    "name": "connect",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Connect to connector",
+                    "parameters": [
+                        {
+                            "name": "connector",
+                            "type": "",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<void>",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "disconnect",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Disconnect from connector",
+                    "parameters": [],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<void>",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "load",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Load subject into the spot",
+                    "parameters": [
+                        {
+                            "name": "Class",
+                            "type": "",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "subject",
+                            "type": "string",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "object",
+                        "description": "- Loaded instance"
+                    }
+                },
+                {
+                    "name": "use",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Use subject",
+                    "parameters": [
+                        {
+                            "name": "subject",
+                            "type": "string",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<Object>",
+                        "description": "- Local loaded subject or remote subject proxy"
+                    }
+                },
+                {
+                    "name": "connect",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Connect to connector",
+                    "parameters": [
+                        {
+                            "name": "connector",
+                            "type": "",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<void>",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "disconnect",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Disconnect from connector",
+                    "parameters": [],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<void>",
+                        "description": ""
+                    }
+                }
+            ]
+        },
+        {
+            "name": "VSpotServer",
+            "description": "",
+            "extends": [],
+            "access": "",
+            "virtual": false,
+            "fires": "",
+            "constructor": {
+                "name": "VSpotServer",
                 "description": "",
                 "parameters": [],
                 "examples": []
