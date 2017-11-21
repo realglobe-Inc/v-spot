@@ -1,0 +1,18 @@
+/**
+ * Bud file for index.js
+ */
+
+'use strict'
+
+const {dir} = require('the-templates')
+
+module.exports = dir({
+  description: 'Mixin functions',
+  name: 'mixins',
+  cjs: true,
+  dirname: __dirname,
+})
+
+if (!module.parent) {
+  require('coz').render(__filename)
+}
