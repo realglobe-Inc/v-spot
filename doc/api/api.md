@@ -1,4 +1,4 @@
-# v-spot@1.0.2
+# v-spot@1.1.0
 
 Spot for v
 
