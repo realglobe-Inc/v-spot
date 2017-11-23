@@ -18,6 +18,8 @@ describe('v-spot', () => {
     const server = new VSpot.Server()
     const client01 = new VSpot.Client()
     const client02 = new VSpot.Client()
+    const client03 = new VSpot.Client()
+
     try {
       {
         class Person {
@@ -46,8 +48,22 @@ describe('v-spot', () => {
       }
     } finally {
 
-      await client01.disconnect()
       await client02.disconnect()
+
+      {
+        await client03.connect(server)
+        {
+          // Use remote instance
+          const john = await client03.use('jp.realglobe.new-york.john')
+          equal(
+            await john.hi('Calling from Japan!'),
+            'hi, Calling from Japan!'
+          )
+        }
+        await client03.disconnect()
+      }
+
+      await client01.disconnect()
 
       await server.close()
     }
