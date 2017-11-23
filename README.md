@@ -119,7 +119,7 @@ tryExample().catch((err) => console.error(err))
 API Guide
 -----
 
-+ [v-spot@1.1.2](./doc/api/api.md)
++ [v-spot@1.2.0](./doc/api/api.md)
   + [create(args)](./doc/api/api.md#v-spot-function-create)
   + [VSpot](./doc/api/api.md#v-spot-class)
 
