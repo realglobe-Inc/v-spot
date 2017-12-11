@@ -177,6 +177,72 @@
                     }
                 },
                 {
+                    "name": "call",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Call a method remotely",
+                    "parameters": [
+                        {
+                            "name": "method",
+                            "type": "string",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "params",
+                            "type": "Array",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "id",
+                            "type": "string",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "w",
+                            "type": "Object",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<*>",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "execute",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Execute a method locally",
+                    "parameters": [
+                        {
+                            "name": "w",
+                            "type": "Object",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<*>",
+                        "description": ""
+                    }
+                },
+                {
                     "name": "load",
                     "access": "",
                     "virtual": false,
@@ -256,6 +322,72 @@
                     "examples": [],
                     "returns": {
                         "type": "Promise.<void>",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "call",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Call a method remotely",
+                    "parameters": [
+                        {
+                            "name": "method",
+                            "type": "string",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "params",
+                            "type": "Array",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "id",
+                            "type": "string",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "w",
+                            "type": "Object",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<*>",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "execute",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Execute a method locally",
+                    "parameters": [
+                        {
+                            "name": "w",
+                            "type": "Object",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<*>",
                         "description": ""
                     }
                 }
@@ -387,6 +519,72 @@
                     }
                 },
                 {
+                    "name": "call",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Call a method remotely",
+                    "parameters": [
+                        {
+                            "name": "method",
+                            "type": "string",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "params",
+                            "type": "Array",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "id",
+                            "type": "string",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "w",
+                            "type": "Object",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<*>",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "execute",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Execute a method locally",
+                    "parameters": [
+                        {
+                            "name": "w",
+                            "type": "Object",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<*>",
+                        "description": ""
+                    }
+                },
+                {
                     "name": "load",
                     "access": "",
                     "virtual": false,
@@ -466,6 +664,72 @@
                     "examples": [],
                     "returns": {
                         "type": "Promise.<void>",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "call",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Call a method remotely",
+                    "parameters": [
+                        {
+                            "name": "method",
+                            "type": "string",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "params",
+                            "type": "Array",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "id",
+                            "type": "string",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "w",
+                            "type": "Object",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<*>",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "execute",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Execute a method locally",
+                    "parameters": [
+                        {
+                            "name": "w",
+                            "type": "Object",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<*>",
                         "description": ""
                     }
                 }
