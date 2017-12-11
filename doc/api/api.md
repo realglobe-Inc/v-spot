@@ -13,10 +13,14 @@ Spot for v
   + [client.use(subject)](#v-spot-classes-v-spot-client-use)
   + [client.connect(connector)](#v-spot-classes-v-spot-client-connect)
   + [client.disconnect()](#v-spot-classes-v-spot-client-disconnect)
+  + [client.call(method, params, id, w)](#v-spot-classes-v-spot-client-call)
+  + [client.execute(w)](#v-spot-classes-v-spot-client-execute)
   + [client.load(Class, subject)](#v-spot-classes-v-spot-client-load)
   + [client.use(subject)](#v-spot-classes-v-spot-client-use)
   + [client.connect(connector)](#v-spot-classes-v-spot-client-connect)
   + [client.disconnect()](#v-spot-classes-v-spot-client-disconnect)
+  + [client.call(method, params, id, w)](#v-spot-classes-v-spot-client-call)
+  + [client.execute(w)](#v-spot-classes-v-spot-client-execute)
 + [`VSpotServer`](#v-spot-classes) Class
   + [new VSpotServer()](#v-spot-classes-v-spot-server-constructor)
 
@@ -118,6 +122,31 @@ Connect to connector
 
 Disconnect from connector
 
+<a class='md-heading-link' name="v-spot-classes-v-spot-client-call" ></a>
+
+### client.call(method, params, id, w) -> `Promise.<*>`
+
+Call a method remotely
+
+| Param | Type | Description |
+| ----- | --- | -------- |
+| method | string |  |
+| params | Array |  |
+| id | string |  |
+| w | Object |  |
+
+
+<a class='md-heading-link' name="v-spot-classes-v-spot-client-execute" ></a>
+
+### client.execute(w) -> `Promise.<*>`
+
+Execute a method locally
+
+| Param | Type | Description |
+| ----- | --- | -------- |
+| w | Object |  |
+
+
 <a class='md-heading-link' name="v-spot-classes-v-spot-client-load" ></a>
 
 ### client.load(Class, subject) -> `object`
@@ -157,6 +186,31 @@ Connect to connector
 ### client.disconnect() -> `Promise.<void>`
 
 Disconnect from connector
+
+<a class='md-heading-link' name="v-spot-classes-v-spot-client-call" ></a>
+
+### client.call(method, params, id, w) -> `Promise.<*>`
+
+Call a method remotely
+
+| Param | Type | Description |
+| ----- | --- | -------- |
+| method | string |  |
+| params | Array |  |
+| id | string |  |
+| w | Object |  |
+
+
+<a class='md-heading-link' name="v-spot-classes-v-spot-client-execute" ></a>
+
+### client.execute(w) -> `Promise.<*>`
+
+Execute a method locally
+
+| Param | Type | Description |
+| ----- | --- | -------- |
+| w | Object |  |
+
 
 <a class='md-heading-link' name="v-spot-classes"></a>
 
